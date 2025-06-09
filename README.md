@@ -86,6 +86,74 @@ Silnik zawiera testowe widżety:
 - edytor promptów ComfyUI  
 - konsola logów
 
+
+
+# 🧩 Tworzenie własnych widżetów (widgetów)
+
+Ten projekt wspiera dynamiczne ładowanie widżetów z osobnych folderów. Każdy widżet to **osobny pakiet** zawierający własne pliki.
+
+## ✅ Minimalna struktura widżetu
+
+```
+widzety/
+└── przykladowywidget/
+    ├── __init__.py
+    └── widget.py
+```
+
+---
+
+## 📁 __init__.py
+
+Ten plik jest wymagany. Powinien zawierać jedną linię:
+
+```python
+from .widget import WidgetPrzykladowy as Widget
+```
+
+Dzięki temu silnik będzie wiedział, którą klasę ładować jako `Widget`.
+
+---
+
+## 📄 widget.py
+
+```python
+# -*- coding: utf-8 -*-
+from PyQt5.QtWidgets import QWidget, QLabel, QVBoxLayout
+
+class WidgetPrzykladowy(QWidget):
+    def __init__(self, settings=None):
+        super().__init__()
+        self.setObjectName("widget")
+        layout = QVBoxLayout(self)
+
+        label = QLabel("To jest przykładowy widżet")
+        layout.addWidget(label)
+
+        try:
+            from core.style_applier import apply_component_styles
+            apply_component_styles(self, "widget")
+            apply_component_styles(label, "label")
+        except Exception as e:
+            print(f"[STYLE WARNING] {e}")
+```
+
+---
+
+## ⚙️ Przykład wpisu w `widgets.json`
+
+```json
+{
+  "module": "przykladowywidget",
+  "class": "WidgetPrzykladowy",
+  "position": "center"
+}
+```
+
+---
+
+## 🔄 Widżet zostanie automatycznie wczytany przy uruchomieniu aplikacji, a jego styl zostanie zastosowany zgodnie z ustawieniami `style_overrides`.
+
 ---
 
 ## 🤝 Autor
