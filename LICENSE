@@ -1,4 +1,4 @@
-MIT License
+MIT License / Licencja MIT
 
 Copyright (c) 2025 vulpix0991
 
@@ -9,13 +9,45 @@ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
 furnished to do so, subject to the following conditions:
 
+Zezwala się każdej osobie, która uzyska kopię tego oprogramowania i powiązanej dokumentacji
+("Oprogramowanie"), na nieodpłatne korzystanie z Oprogramowania bez ograniczeń,
+w tym między innymi prawo do używania, kopiowania, modyfikowania, scalania, publikowania,
+dystrybuowania, sublicencjonowania i/lub sprzedaży kopii Oprogramowania oraz pozwalania
+osobom, którym Oprogramowanie zostało dostarczone, na to samo – pod następującymi warunkami:
+
+---
+
+### ADDITIONAL TERMS / WARUNKI DODATKOWE
+
+1. This GUI engine is free and open-source under the MIT license.
+2. Additional widgets (free or premium) published separately may have different licenses.
+3. Premium widgets are not covered by this license and must not be copied, modified, or distributed without explicit permission.
+4. Distribution or resale of premium widgets without a valid license is strictly prohibited.
+
+1. Ten silnik GUI jest darmowy i open-source na zasadach licencji MIT.
+2. Dodatkowe widżety (darmowe lub płatne) publikowane osobno mogą mieć inne licencje.
+3. Widżety premium nie są objęte tą licencją i nie mogą być kopiowane, modyfikowane ani rozpowszechniane bez wyraźnej zgody autora.
+4. Dystrybucja lub odsprzedaż widżetów premium bez ważnej licencji jest surowo zabroniona.
+
+---
+
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+Powyższe informacje o prawach autorskich i zgodzie muszą być dołączane do wszystkich
+kopii lub istotnych fragmentów Oprogramowania.
+
+---
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
+PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE
+FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+DEALINGS IN THE SOFTWARE.
+
+Oprogramowanie jest dostarczane "TAK JAK JEST", bez jakiejkolwiek gwarancji,
+wyraźnej lub dorozumianej, w tym między innymi gwarancji przydatności handlowej,
+przydatności do określonego celu i nienaruszalności praw. W żadnym wypadku autorzy
+lub właściciele praw autorskich nie ponoszą odpowiedzialności za jakiekolwiek roszczenia,
+szkody lub inne zobowiązania wynikające z działania Oprogramowania lub korzystania z niego.
